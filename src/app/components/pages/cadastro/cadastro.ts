@@ -1,6 +1,12 @@
 export class Cadastro {
-    nome: string;
-    cpf: number;
-    senha: string;
-    email:string;
+    nome: string = '';
+    cpf: number = 0;
+    senha: string = '';
+    email:string = '';
+
+    
+    constructor(){
+
+    }
+  
 }

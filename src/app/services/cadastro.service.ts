@@ -14,8 +14,8 @@ export class CadastroService {
   }
 
  inserirCadastro(cadastro:Cadastro) : Observable<Cadastro>{
-   console.log(cadastro) 
+   console.log(cadastro); 
   return this.http.post<Cadastro>('http://localhost:8080/api/auth/candidato', cadastro);
-
+  
   }
 }

@@ -20,6 +20,8 @@ import { PainelCandidataComponent } from './components/pages/painel-candidata/pa
 import { MenuPainelComponent } from './components/menu-painel/menu-painel.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+import { CadastroService } from './services/cadastro.service';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,8 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     FontAwesomeModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
