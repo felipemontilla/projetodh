@@ -40,8 +40,7 @@ export class CadastroComponent implements OnInit {
     console.log("this.formCadastro: ",this.formCadastro.value)
     this.cadastro = this.formCadastro.value
     console.log("this.cadastro: ",this.cadastro)
-    this.cadastroService.inserirCadastro(this.cadastro)
-      //.subscribe( response => console.log(response));
+    this.cadastroService.inserirCadastro(this.cadastro).subscribe(() => console.log("retorno do serviço"))
   }
 
 

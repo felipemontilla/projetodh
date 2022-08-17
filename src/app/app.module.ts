@@ -21,7 +21,6 @@ import { MenuPainelComponent } from './components/menu-painel/menu-painel.compon
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
-import { CadastroService } from './services/cadastro.service';
 
 @NgModule({
   declarations: [
